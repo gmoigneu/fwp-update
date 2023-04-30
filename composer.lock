@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2aa0babdfcc29ed372302525a46a21a",
+    "content-hash": "1cb1c15bfe6d36ce77850fc1745bb739",
     "packages": [
         {
             "name": "czproject/git-php",
-            "version": "v3.17.0",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/czproject/git-php.git",
-                "reference": "a7b911b81a2fe626f748a4ac8955353c5777bc6c"
+                "reference": "5e82d5479da5f16d37a915de4ec55e1ac78de733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czproject/git-php/zipball/a7b911b81a2fe626f748a4ac8955353c5777bc6c",
-                "reference": "a7b911b81a2fe626f748a4ac8955353c5777bc6c",
+                "url": "https://api.github.com/repos/czproject/git-php/zipball/5e82d5479da5f16d37a915de4ec55e1ac78de733",
+                "reference": "5e82d5479da5f16d37a915de4ec55e1ac78de733",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "nette/tester": "^1.1"
+                "nette/tester": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -46,7 +46,17 @@
             "keywords": [
                 "git"
             ],
-            "time": "2019-02-09T13:11:36+00:00"
+            "support": {
+                "issues": "https://github.com/czproject/git-php/issues",
+                "source": "https://github.com/czproject/git-php/tree/v4.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/donate?hosted_button_id=EPSKR7MGVV7KC",
+                    "type": "custom"
+                }
+            ],
+            "time": "2022-04-21T16:50:57+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -4685,5 +4695,6 @@
     "platform": {
         "php": "^7.1.3"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
